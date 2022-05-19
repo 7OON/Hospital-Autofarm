@@ -1,0 +1,19 @@
+LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(116, 23, -479)
+                for _, v in pairs(Workspace.Ignored.HospitalJob:GetChildren()) do
+                    if v.Name == "Can I get the Green bottle" then
+                        fireclickdetector(v.Parent.Green.ClickDetector)
+                        wait(1)
+                        fireclickdetector(v.ClickDetector)
+                    end
+                    if v.Name == "Can I get the Blue bottle" then
+                        fireclickdetector(v.Parent.Blue.ClickDetector)
+                        wait(1)
+                        fireclickdetector(v.ClickDetector)
+                    end
+                    if v.Name == "Can I get the Red bottle" then
+                        fireclickdetector(v.Parent.Red.ClickDetector)
+                        wait(1)
+                        fireclickdetector(v.ClickDetector)
+                    end
+                end
+            end
